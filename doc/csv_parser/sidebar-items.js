@@ -1,0 +1,1 @@
+initSidebarItems({"mod":[["export","Module for exporting data to CSV."],["parser","Module for parsing CSV and transaction engine."],["structs","Module for storing structs and enums that are used in other modules."]]});

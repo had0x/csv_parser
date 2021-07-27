@@ -1,0 +1,20 @@
+[package]
+name = "csv_parser"
+version = "0.1.0"
+edition = "2018"
+
+
+[dependencies]
+#used for reading csv values from file
+csv = "1.1.6"
+#used for serializing data to internal structures
+serde = {version = "1.0.126",  features = ["derive"]}
+#used for bankers rounding and for formatting data to 4 levels of precision past decimal point
+rust_decimal = "1.14.3"
+
+[profile.release]
+lto="fat"
+codegen-units = 1
+
+[profile.bench]
+debug = true

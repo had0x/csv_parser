@@ -1,0 +1,1 @@
+initSidebarItems({"fn":[["export_to_stdout","Function that exports accounts data to stdout."]]});
